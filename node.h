@@ -1,4 +1,3 @@
-#include "linkedlist.h"
 
 class Node{
 
@@ -26,9 +25,6 @@ next = nullptr;
 
 Node::~Node(){
 
-if (next != nullptr){
-    delete next;
-}
 cout <<"Deleting node: "<< name <<endl;
 
 }

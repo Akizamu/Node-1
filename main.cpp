@@ -15,12 +15,6 @@ head -> set_next(node2);
 node2 -> set_next(node3);
 node3 -> set_next(node4);
 
-Node* current = head;
-while(current != nullptr){
-    current->print();
-    current=current->get_next();
-}
-
 
 delete head;
 
