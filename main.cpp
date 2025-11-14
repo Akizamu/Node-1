@@ -1,22 +1,22 @@
 #include <iostream>
 #include <string>
 using namespace std;
-#include "node.h"
+#include "linkedlist.h"
 
 int main(){
 
+    ll l; 
 
-Node* head = new Node("A", 1);
-Node* node2 = new Node("B", 2);
-Node* node3 = new Node("C", 3);
-Node* node4 = new Node("D", 4);
+l.insert("A",1);
+l.insert("B",2);
+l.insert("C",3);
 
-head -> set_next(node2);
-node2 -> set_next(node3);
-node3 -> set_next(node4);
+l.print_ll();
 
 
-delete head;
+
+return 0;
 
 
 }
+
